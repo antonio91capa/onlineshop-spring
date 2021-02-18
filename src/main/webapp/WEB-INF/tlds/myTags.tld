@@ -1,0 +1,40 @@
+<taglib xsi:schemaLocation="http://java.sun.com/xml/ns/javaee web-jsptaglibrary_2_1.xsd"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="2.1">
+     
+     <tlib-version>1.0</tlib-version>
+     <short-name>Category Tag Library</short-name>
+     <uri>http://nilpointer.net/</uri>
+     
+     <tag>
+     	<name>categoriesList</name>
+     	<tag-class>net.antonio.app.tags.CategoryListTag</tag-class>
+     	<body-content>empty</body-content>
+     </tag>
+     
+     <tag>
+     	<name>latestProducts</name>
+     	<tag-class>net.antonio.app.tags.LatestProductsTag</tag-class>
+     	<body-content>empty</body-content>
+     </tag>
+     
+     <tag>
+     	<name>carouselProducts</name>
+     	<!-- <tag-class>net.antonio.app.tags.CarouselTag</tag-class> -->
+     	<tag-class>net.antonio.app.tags.CarouselTag2</tag-class>
+     	<body-content>empty</body-content>
+     </tag>
+     
+     <tag>
+     	<name>searchTag</name>
+     	<tag-class>net.antonio.app.tags.SearchTag</tag-class>
+     	<body-content>empty</body-content>
+     </tag>
+     
+     <tag>
+     	<name>cartTag</name>
+     	<tag-class>net.antonio.app.tags.CartTag</tag-class>
+     	<body-content>empty</body-content>
+     </tag>
+</taglib>
